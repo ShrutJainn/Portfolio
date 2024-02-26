@@ -1,166 +1,166 @@
-*{
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    color: white;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
-html,body{
-    width: 100%;
+html,
+body {
+  width: 100%;
 }
-#main{
-    background-color: black;
+#main {
+  background-color: black;
 }
-#miniCircle{
-    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
-    position: absolute;
-    z-index: 99999;
-    width: 10px;
-    height: 10px;
-    background-color: #fff;
-    border-radius: 50%;
-
-}
-
-.landingPage{
-    position: relative;
-    height: 100vh;
-    background-color: black;
-    color: white;
-}
-#nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px;
-    font-size: larger;
-}
-.bounding{
-    width: fit-content;
-    overflow: hidden;
-}
-.bounding .boundingElem{
-    transform: translateY(100%);
-    
-}
-#pageHeading{
-    margin-left: 100px;
-}
-#pageHeading h1{
-    font-size: 11vw;
-    font-weight: 600;
-    opacity: .6;
-}
-#pageHeading #secondH1{
-    margin-left: 80px;
-}
-.secondText{
-    width: fit-content;
-}
-.secondText{
-    text-align: right;
-}
-.rightText{
-    display: flex;
-    width: 100%;
-    justify-content: right;
+#miniCircle {
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  position: absolute;
+  z-index: 99999;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
 }
 
-#landingPageFooter{
-    display: flex;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    justify-content: space-around;
-    margin-top: 100px;
-    opacity: 0;
+.landingPage {
+  position: relative;
+  height: 100vh;
+  background-color: black;
+  color: white;
 }
-#landingPageFooter a{
-    text-decoration: none;
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  font-size: larger;
 }
-#iconset{
-    display: flex;
+.bounding {
+  width: fit-content;
+  overflow: hidden;
 }
-#iconset .circle{ 
-    height: 50px;  
-    width: 20px;
-    opacity: 0.7;
+.bounding .boundingElem {
+  transform: translateY(100%);
 }
-
-.secondPage{
-    background-color: black;
-    padding-top: 200px;
-    width: 100%;
-    height: 100vh;
+#pageHeading {
+  margin-left: 100px;
 }
-.elem{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-top: 1px solid #888;
-    font-size: 40px;
-    opacity: 0.6;
-    padding: 50px 50px;
+#pageHeading h1 {
+  font-size: 11vw;
+  font-weight: 600;
+  opacity: 0.6;
 }
-.secondPage hr{
-    opacity: 0.2;
+#pageHeading #secondH1 {
+  margin-left: 80px;
 }
-.elem img{
-    opacity: 0;
-    position: absolute;
-    z-index: 999;
-    height: 100%;
+.secondText {
+  width: fit-content;
+}
+.secondText {
+  text-align: right;
+}
+.rightText {
+  display: flex;
+  width: 100%;
+  justify-content: right;
 }
 
-.thirdPage{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10vw 10vw;
+#landingPageFooter {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  justify-content: space-around;
+  margin-top: 100px;
+  opacity: 0;
 }
-.thirdPage img{
-    height: 250px;
-    padding-left: 500px;
+#landingPageFooter a {
+  text-decoration: none;
 }
-#aboutText h5{
-    opacity: 0.8;
+#iconset {
+  display: flex;
 }
-#aboutText{
-    width: 20rem;
-}
-#aboutText p{
-    margin-bottom: 40px;
-    line-height: 1.4;
-}
-#aboutText a{
-    border: 1px solid #fff;
-    border-radius: 100px;
-    padding: 12px 22px;
-    margin-top: 20px;
-    cursor: pointer;
-    text-decoration: none;
+#iconset .circle {
+  height: 50px;
+  width: 20px;
+  opacity: 0.7;
 }
 
-.subscribe{
-    opacity: 0.8;
-    margin-bottom: 50px;
-    padding-left: 10px;
+.secondPage {
+  background-color: black;
+  padding-top: 200px;
+  width: 100%;
+  height: 100vh;
+}
+.elem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #888;
+  font-size: 40px;
+  opacity: 0.6;
+  padding: 50px 50px;
+}
+.secondPage hr {
+  opacity: 0.2;
+}
+.elem img {
+  opacity: 0;
+  position: absolute;
+  z-index: 999;
+  height: 100%;
 }
 
-.footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.thirdPage {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10vw 10vw;
 }
-.leftFooter{
-    display: flex;
-    gap: 20px;
+.thirdPage img {
+  height: 250px;
+  padding-left: 500px;
 }
-.rightFooter{
-    display: flex;
-    gap: 20px;
+#aboutText h5 {
+  opacity: 0.8;
 }
-.rightFooter a{
-    text-decoration: none;
+#aboutText {
+  width: 100%;
+  height: 100%;
+}
+#aboutText p {
+  margin-bottom: 40px;
+  line-height: 1.4;
+}
+#aboutText a {
+  border: 1px solid #fff;
+  border-radius: 100px;
+  padding: 12px 22px;
+  margin-top: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.subscribe {
+  opacity: 0.8;
+  margin-bottom: 50px;
+  padding-left: 10px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.leftFooter {
+  display: flex;
+  gap: 20px;
+}
+.rightFooter {
+  display: flex;
+  gap: 20px;
+}
+.rightFooter a {
+  text-decoration: none;
 }
